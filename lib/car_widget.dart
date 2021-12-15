@@ -14,7 +14,8 @@ Widget buildCar(Car car, int index){
     margin: EdgeInsets.only(right: index != null ? 16 : 0, left: index == 0 ? 16 : 0),
     width: 220,
     child: Column(
-      crossAxisAlignment: CrossAxisAlignment.stretch,
+      mainAxisAlignment: MainAxisAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
 
         Align(

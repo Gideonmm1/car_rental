@@ -79,10 +79,9 @@ class _AvailableCarsState extends State<AvailableCars> {
               Expanded(
                 child: GridView.count(
                   physics: BouncingScrollPhysics(),
-                  childAspectRatio: 1 / 1.55,
                   crossAxisCount: 2,
-                  crossAxisSpacing: 15,
-                  mainAxisSpacing: 15,
+                  mainAxisSpacing: 1,
+                  crossAxisSpacing: 1,
                   children: getCarList().map((item) {
                     return GestureDetector(
                       onTap: () {

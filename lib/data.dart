@@ -162,9 +162,9 @@ List<Dealer> getDealerList(){
       "assets/images/toyota.png",
     ),
     Dealer(
-      "Tesla",
+      "Nissan",
       89,
-      "assets/images/tesla.jpg",
+      "assets/images/nissan.png",
     ),
   ];
 }

@@ -234,7 +234,7 @@ class _ShowroomState extends State<Showroom> {
                         children: [
 
                           Text(
-                            "TOP DEALERS",
+                            "TOP BRANDS",
                             style: TextStyle(
                               fontSize: 22,
                               fontWeight: FontWeight.bold,
