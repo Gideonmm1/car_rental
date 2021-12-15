@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:car_rental/data.dart';
+import 'package:car_rental/database.dart';
 import 'package:car_rental/constants.dart';
 
 Widget buildCar(Car car, int index){
@@ -82,13 +82,13 @@ Widget buildCar(Car car, int index){
           ),
         ),
 
-        Text(
-          "per " + (car.condition == "Daily" ? "day" : car.condition == "Weekly" ? "week" : "month"),
-          style: TextStyle(
-            fontSize: 14,
-            color: Colors.grey,
-          ),
-        ),
+        // Text(
+        //   "per " + (car.condition == "Daily" ? "day" : car.condition == "Weekly" ? "week" : "month"),
+        //   style: TextStyle(
+        //     fontSize: 14,
+        //     color: Colors.grey,
+        //   ),
+        // ),
 
       ],
     ),

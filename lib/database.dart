@@ -65,7 +65,7 @@ List<Car> getCarList(){
     ),
     Car(
       "Toyota",
-      "J150 PRADOS",
+      "J150 PRADO",
       11500,
       "Daily",
       [
@@ -138,30 +138,30 @@ List<Car> getCarList(){
   ];
 }
 
-class Dealer {
+class Brand {
 
   String name;
   int offers;
   String image;
 
 
-  Dealer(this.name, this.offers, this.image);
+  Brand(this.name, this.offers, this.image);
 
 }
 
-List<Dealer> getDealerList(){
-  return <Dealer>[
-    Dealer(
+List<Brand> getBrandList(){
+  return <Brand>[
+    Brand(
       "Mercedes",
       174,
       "assets/images/merdeces.png",
     ),
-    Dealer(
+    Brand(
       "Toyota",
       126,
       "assets/images/toyota.png",
     ),
-    Dealer(
+    Brand(
       "Nissan",
       89,
       "assets/images/nissan.png",

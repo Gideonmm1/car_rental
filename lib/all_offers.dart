@@ -1,15 +1,15 @@
-import 'package:car_rental/car_widget.dart';
+import 'package:car_rental/car_page.dart';
 import 'package:flutter/material.dart';
 import 'package:car_rental/constants.dart';
-import 'package:car_rental/data.dart';
-import 'package:car_rental/book_car.dart';
+import 'package:car_rental/database.dart';
+import 'package:car_rental/book_page.dart';
 
-class AvailableCars extends StatefulWidget {
+class AllOffers extends StatefulWidget {
   @override
-  _AvailableCarsState createState() => _AvailableCarsState();
+  _AllOffersState createState() => _AllOffersState();
 }
 
-class _AvailableCarsState extends State<AvailableCars> {
+class _AllOffersState extends State<AllOffers> {
 
   List<Filter> filters = getFilterList();
   Filter selectedFilter;
@@ -64,7 +64,7 @@ class _AvailableCarsState extends State<AvailableCars> {
               ),
 
               Text(
-                "Available Cars (" + getCarList().length.toString() + ")",
+                "All offers(" + getCarList().length.toString() + ")",
                 style: TextStyle(
                   color: Colors.black,
                   fontSize: 36,

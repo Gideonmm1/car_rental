@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:car_rental/data.dart';
+import 'package:car_rental/database.dart';
 
-Widget buildDealer(Dealer dealer, int index){
+Widget buildBrands(Brand brand, int index){
   return Container(
     decoration: BoxDecoration(
       color: Colors.white,
@@ -19,7 +19,7 @@ Widget buildDealer(Dealer dealer, int index){
         Container(
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: AssetImage(dealer.image), 
+              image: AssetImage(brand.image), 
               fit: BoxFit.cover,
             ),
             borderRadius: BorderRadius.all(
@@ -35,7 +35,7 @@ Widget buildDealer(Dealer dealer, int index){
         ),
 
         Text(
-          dealer.name,
+          brand.name,
           style: TextStyle(
             fontSize: 20,
             fontWeight: FontWeight.bold,
@@ -44,7 +44,7 @@ Widget buildDealer(Dealer dealer, int index){
         ),
 
         Text(
-          dealer.offers.toString() + " offers",
+          brand.offers.toString() + " listings",
           style: TextStyle(
             fontSize: 14,
             color: Colors.grey,

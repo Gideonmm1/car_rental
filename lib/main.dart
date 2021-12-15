@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:car_rental/showroom.dart';
+import 'package:car_rental/home_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         textTheme: GoogleFonts.muliTextTheme(),
       ),
       debugShowCheckedModeBanner: false,
-      home: Showroom(),
+      home: HomePage(),
     );
   }
 }
