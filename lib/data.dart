@@ -64,14 +64,14 @@ List<Car> getCarList(){
       ],
     ),
     Car(
-      "Acura",
-      "MDX 2020",
-      2200,
-      "Monthly",
+      "Toyota",
+      "J150 PRADOS",
+      11500,
+      "Daily",
       [
-        "assets/images/acura_0.png",
-        "assets/images/acura_1.png",
-        "assets/images/acura_2.png",
+        "assets/images/tx01.jpg",
+        "assets/images/tx02.jpg",
+        "assets/images/tx03.jpg",
       ],
     ),
     Car(
